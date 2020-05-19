@@ -16,6 +16,7 @@ public class ExtendedDotDrawer:AdvancedPageControlDrawerParent, AdvancedPageCont
                 height:CGFloat? = 16,
                 width:CGFloat? = 16,
                 currentItem: CGFloat? = 0,
+                indicatorColor: UIColor? = .lightGray,
                 dotsColor: UIColor? = .white,
                 isBordered:Bool = false,
                 borderColor:UIColor = .black,
