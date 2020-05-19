@@ -29,7 +29,7 @@ public class ExtendedDotDrawer:AdvancedPageControlDrawerParent, AdvancedPageCont
                    space: space!,
                    raduis: raduis!,
                    currentItem: currentItem!,
-                   indicatorColor: dotsColor,
+                   indicatorColor: indicatorColor,
                    dotsColor: dotsColor,
                    isBordered: isBordered,
                    borderColor: borderColor,
