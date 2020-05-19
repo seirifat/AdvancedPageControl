@@ -16,8 +16,8 @@ public class ExtendedDotDrawer:AdvancedPageControlDrawerParent, AdvancedPageCont
                 height:CGFloat? = 16,
                 width:CGFloat? = 16,
                 currentItem: CGFloat? = 0,
-                indicatorColor: UIColor? = .lightGray,
-                dotsColor: UIColor? = .white,
+                indicatorColor: UIColor? = .white,
+                dotsColor: UIColor? = .lightGray,
                 isBordered:Bool = false,
                 borderColor:UIColor = .black,
                 borderWidth:CGFloat = 1) {
@@ -80,7 +80,7 @@ public class ExtendedDotDrawer:AdvancedPageControlDrawerParent, AdvancedPageCont
             let x = getCenteredXPosition(rect, itemPos: steadyPosition, dotSize: width,space: space, numberOfPages: (numberOfPages)+1)
             let halfMovementRatio =  1 - currPosProgress
             drawItem(CGRect(x: rect.origin.x  + x, y:  y , width:  width  + ( halfMovementRatio  * step ), height: height )
-                , raduis:radius,color: dotsColor)
+                , raduis:radius,color: indicatorColor)
         }
         
     }
